@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
 });
 
-//we create a small function that will return an object with the different configurations for our Home Screen
 export const HomeScreenOptions = () => {
   return {
     tabBarIcon: ({ color, size }) => (
